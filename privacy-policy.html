@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VPNMD Privacy Policy</title>
+<style>
+  :root { --bg:#f6f7ff; --fg:#1a1f36; --dim:#6b7395; --accent:#6c47ff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0c0f20; --fg:#f1f3ff; --dim:#99a2c8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { color:var(--accent); margin-bottom:4px; }
+  h2 { margin-top:32px; font-size:1.15rem; }
+  .muted { color:var(--dim); }
+  [dir=rtl] { text-align:right; }
+</style>
+</head>
+<body>
+<main>
+<h1>VPNMD Privacy Policy</h1>
+<p class="muted">Last updated: 7 November 2026</p>
+
+<p>VPNMD ("the app") is a free VPN client for Android. This policy explains what data the app handles. In short: the developer does not collect, store, sell or share your personal data or browsing activity.</p>
+
+<h2>1. No accounts, no analytics</h2>
+<p>The app has no sign-up and no user accounts. It contains no analytics, advertising or tracking SDKs.</p>
+
+<h2>2. VPN traffic and third-party servers</h2>
+<p>When you connect, your device's internet traffic is routed through a VPN server using Android's VpnService. The servers are <strong>free public servers operated by third parties</strong>, taken from publicly published server lists. The developer does not run these servers and cannot see or log your traffic, but cannot guarantee how third-party operators handle traffic. Do not rely on the app for activities that need guaranteed confidentiality.</p>
+
+<h2>3. Network requests the app makes</h2>
+<ul>
+  <li><strong>Server lists</strong> are downloaded from public sources (e.g. GitHub, v2nodes.com, shadowmere.xyz). No personal data is sent.</li>
+  <li><strong>Speed tests</strong> request a small Google test page (generate_204) through each server to measure ping.</li>
+  <li><strong>Server location</strong>: the IP addresses of <em>servers</em> (not of you) are sent to get.geojs.io to look up their country.</li>
+  <li><strong>Your visible IP</strong>: while connected, the app asks api.ipify.org / get.geojs.io which IP address websites see, and shows it to you.</li>
+  <li><strong>National Internet mode</strong> (optional): requests are sent only to the Google Apps Script that <em>you</em> deploy in your own Google account, with the secret key you choose.</li>
+</ul>
+
+<h2>4. Data stored on your device</h2>
+<p>Settings (theme, language, chosen server), cached server lists, speed-test results and, if you use it, your National Internet relay URL and key are stored only on your device. They are deleted when you uninstall the app or clear its data.</p>
+
+<h2>5. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect data from them.</p>
+
+<h2>6. Changes</h2>
+<p>Updates to this policy will be published on this page with a new date.</p>
+
+<h2>7. Contact</h2>
+<p>Questions: <a href="mailto:develop5941@gmail.com">develop5941@gmail.com</a></p>
+
+<hr>
+<section dir="rtl" lang="fa">
+<h1>سیاست حریم خصوصی VPNMD</h1>
+<p>توسعه‌دهنده هیچ اطلاعات شخصی یا سابقه‌ی مرور شما را جمع‌آوری، ذخیره، فروش یا به اشتراک نمی‌گذارد. برنامه حساب کاربری، ابزار آمارگیری، تبلیغات یا ردیاب ندارد.</p>
+<p>هنگام اتصال، ترافیک گوشی از طریق سرورهای VPN عبور می‌کند. این سرورها <strong>سرورهای عمومی رایگانی هستند که اشخاص ثالث اداره می‌کنند</strong>. توسعه‌دهنده آن‌ها را اداره نمی‌کند و ترافیک شما را نمی‌بیند، ولی نمی‌تواند تضمین کند اپراتورهای آن سرورها با ترافیک چه می‌کنند.</p>
+<p>برنامه فقط این درخواست‌ها را می‌فرستد: دریافت لیست سرورها از منابع عمومی؛ تست سرعت با صفحه‌ی آزمایشی گوگل؛ ارسال آی‌پی <em>سرورها</em> (نه آی‌پی شما) به get.geojs.io برای تشخیص کشور؛ و هنگام اتصال، پرسیدن آی‌پی قابل‌مشاهده‌ی شما از api.ipify.org برای نمایش به خودتان. در حالت «نت ملی» درخواست‌ها فقط به Apps Script‌ای می‌رود که خودتان در اکانت گوگلتان ساخته‌اید.</p>
+<p>تنظیمات و داده‌های برنامه فقط روی گوشی خودتان ذخیره می‌شوند و با حذف برنامه پاک می‌شوند.</p>
+<p>تماس: <a href="mailto:develop5941@gmail.com">develop5941@gmail.com</a></p>
+</section>
+</main>
+</body>
+</html>
